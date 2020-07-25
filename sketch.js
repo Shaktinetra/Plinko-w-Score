@@ -74,6 +74,7 @@ function draw() {
     
         } else {
           if (particle.body.position.x > 601 && particle.body.position < 800) {
+            score = score + 200;
             particle = null;
           }
         }
