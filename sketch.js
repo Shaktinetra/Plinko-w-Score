@@ -67,16 +67,14 @@ function draw() {
         score = score + 500;
         particle = null;   
     
-      } else {
+      }
         if (particle.body.position.x > 301 && particle.body.position.x < 600) {
           score = score + 100;
           particle = null;
     
-        } else {
+        }
           if (particle.body.position.x > 601 && particle.body.position < 800) {
             particle = null;
-          }
-        }
       }
 
       if (count >= 5) {
